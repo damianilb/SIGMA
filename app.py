@@ -566,7 +566,7 @@ def main() -> None:
                 "Eficiencia (%)": "{:.2f}",
                 "THD (%)": "{:.2f}",
                 "Factor de Potencia": "{:.4f}",
-            }).background_gradient(subset=["Potencia (W)"], cmap="YlOrRd"),
+            }),
             use_container_width=True,
             height=350,
         )
